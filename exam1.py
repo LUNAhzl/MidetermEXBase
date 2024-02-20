@@ -9,6 +9,6 @@ def calculate_total(lst):
             total += sum(sublist)
     return total
 
-list1 = [[2, 4, 6], [1, 3, 5], [8, 10, 12]]
+list1 = [[2, 5, 6], [1, 8, 5], [8, 10, 14]]
 result1 = calculate_total(list1)
 print(result1)
